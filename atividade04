@@ -1,46 +1,18 @@
-//Escreva um programa que leia dois números e uma operação (adição, subtração, multiplicação, divisão) e realize a operação entre os dois números.
 
-// Solicita ao usuário o primeiro número
-var num1 = parseFloat(prompt("Digite o primeiro número:")); 
-// parseFloat converte o texto digitado para número decimal
+    var num1 = 50
+    var num2 =80
+    var resultado 
 
-// Solicita ao usuário o segundo número
-var num2 = parseFloat(prompt("Digite o segundo número:"));
-
-// Solicita ao usuário a operação desejada
-// Pode ser: +, -, *, /
-var operacao = prompt("Digite a operação (+, -, *, /):");
-
-// Variável para armazenar o resultado
-var resultado;
-
-// Estrutura condicional para verificar qual operação foi escolhida
-if (operacao === "+") {
-    // Operador de adição
-    resultado = num1 + num2;
-} else if (operacao === "-") {
-    // Operador de subtração
-    resultado = num1 - num2;
-} else if (operacao === "*") {
-    // Operador de multiplicação
-    resultado = num1 * num2;
-} else if (operacao === "/") {
-    // Operador de divisão
-    // Verifica se o divisor não é zero para evitar erro matemático
-    if (num2 !== 0) {
-        resultado = num1 / num2;
-    } else {
-        console.log("Erro: divisão por zero não é permitida.");
-        resultado = null; // Define como nulo para indicar erro
+    if ( num1 + num2) {
+        console.log("operação de adição: " + (num1 + num2))
     }
-} else {
-    // Caso a operação digitada não seja válida
-    console.log("Operação inválida! Use apenas +, -, *, /.");
-    resultado = null;
-}
-
-// Exibe o resultado no console, se não houve erro
-if (resultado !== null) {
-    console.log("Resultado:", resultado);
-
-    0000
+    if (num1 - num2) {
+        console.log ("operação da subtração: " + (num1 - num2))
+    }
+    if (num1 * num2){
+        console.log("operação de multiplicação: " + (num1*num2))
+ 
+    }
+    if (num1 / num2) {
+        console.log("operação de divisão: " + (num1/num2))
+    }
