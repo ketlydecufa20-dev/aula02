@@ -42,4 +42,5 @@ if (operacao === "+") {
 // Exibe o resultado no console, se não houve erro
 if (resultado !== null) {
     console.log("Resultado:", resultado);
-}
+
+    0000
