@@ -1,4 +1,4 @@
-//
+//Crie um programa que leia três números e determine qual é o maior
 var num1 = 10
 var num2 = 20
 var num3 = 40
